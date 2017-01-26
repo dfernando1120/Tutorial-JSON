@@ -14,6 +14,8 @@
 		518CC58E1E396BCE002B3661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518CC58C1E396BCE002B3661 /* LaunchScreen.storyboard */; };
 		518CC5991E396BCF002B3661 /* Tutorial_JSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CC5981E396BCF002B3661 /* Tutorial_JSONTests.swift */; };
 		518CC5A41E396BCF002B3661 /* Tutorial_JSONUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CC5A31E396BCF002B3661 /* Tutorial_JSONUITests.swift */; };
+		518CC5B21E396E62002B3661 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CC5B11E396E62002B3661 /* ArticleCell.swift */; };
+		518CC5B41E396F1C002B3661 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518CC5B31E396F1C002B3661 /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		518CC59F1E396BCF002B3661 /* Tutorial-JSONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tutorial-JSONUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		518CC5A31E396BCF002B3661 /* Tutorial_JSONUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial_JSONUITests.swift; sourceTree = "<group>"; };
 		518CC5A51E396BCF002B3661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		518CC5B11E396E62002B3661 /* ArticleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		518CC5B31E396F1C002B3661 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				518CC5831E396BCE002B3661 /* AppDelegate.swift */,
 				518CC5851E396BCE002B3661 /* ViewController.swift */,
 				518CC5871E396BCE002B3661 /* Main.storyboard */,
+				518CC5B31E396F1C002B3661 /* Article.swift */,
+				518CC5B11E396E62002B3661 /* ArticleCell.swift */,
 				518CC58A1E396BCE002B3661 /* Assets.xcassets */,
 				518CC58C1E396BCE002B3661 /* LaunchScreen.storyboard */,
 				518CC58F1E396BCE002B3661 /* Info.plist */,
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				518CC5B41E396F1C002B3661 /* Article.swift in Sources */,
 				518CC5861E396BCE002B3661 /* ViewController.swift in Sources */,
 				518CC5841E396BCE002B3661 /* AppDelegate.swift in Sources */,
+				518CC5B21E396E62002B3661 /* ArticleCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
